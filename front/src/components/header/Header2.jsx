@@ -93,7 +93,7 @@ const Header2 = () => {
 
   return (
     <Container sx={{ my: 3, display: "flex", justifyContent: "space-between" }}>
-      <Stack alignItems={"center"}>
+      <Stack alignItems={"center"} sx={{display: { xs: "none", md: "block" }}}>
         <ShoppingCartOutlined />
         <Typography variant="body2">E-commerce</Typography>
       </Stack>
