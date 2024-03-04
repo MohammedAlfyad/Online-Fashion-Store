@@ -16,7 +16,7 @@ const Footer = () => {
         alignItems={"center"}
         color={"HighlightText"}
         variant="h6"
-        sx={{ fontSize: 18 }}
+        sx={{ fontSize: 18 , flexDirection: { xs: "column", md: "row" } }}
       >
         Designed and developed by
         <Button
