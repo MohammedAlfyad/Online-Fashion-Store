@@ -220,7 +220,7 @@ const Main = () => {
         </Stack>
 
         <Dialog
-          sx={{ ".MuiPaper-root": { minWidth: { xs: "100%", md: 800 } } }}
+          sx={{ ".MuiPaper-root": {maxWidth:"1000px"  } }}
           open={open}
           onClose={handleClose}
           aria-labelledby="alert-dialog-title"
@@ -232,6 +232,7 @@ const Main = () => {
               position: "absolute",
               top: 0,
               right: 10,
+              color:"black",
             }}
             onClick={handleClose}
           >
